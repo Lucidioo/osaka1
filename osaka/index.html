@@ -1,0 +1,299 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Osaka Team</title>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link href="assets/css/main.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="alt" id="header">
+
+  </header>
+  <section data-video="images/banner" id="banner">
+    <div class="inner">
+      <h1>Osaka</h1>
+      <p>Uma cidade milenar, nascida a 25.000 A.C....</p>
+    </div>
+    <a href="#one" id="seta-rolar" onclick="window.scrollY()" title="Role para baixo">ᐯ</a>
+    <script>
+      const seta = document.getElementById('seta-rolar');
+
+      // Esconde a seta ao rolar para baixo
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 100) {
+          seta.classList.add('oculto');
+        } else {
+          seta.classList.remove('oculto');
+        }
+      });
+
+      // Faz a rolagem suave ao clicar na seta
+      seta.addEventListener('click', function (e) {
+        e.preventDefault(); // impede o pulo imediato
+        const destino = document.querySelector(this.getAttribute('href'));
+        destino.scrollIntoView({ behavior: 'smooth' });
+      });
+    </script>
+    </script>
+  </section>
+  <section class="wrapper style2" id="one">
+    <div class="inner">
+      <div>
+        <div class="box" style="color: black;">
+          <div class="image fit">
+            <img alt="" src="images/pic01.jpg" />
+          </div>
+          <div class="content">
+            <header class="align-center">
+              <h2>Historia de Osaka</h2>
+              <p>A antiga Osaka</p>
+            </header>
+            <hr />
+            <p> A história de Osaka data de 25.000 A.C., de quando ferramentas de pedra foram encontradas em escavações.
+              Você sabia que de 6 a 7 mil anos atrás, quase Osaka inteira era, na verdade, um oceano? A maior parte de
+              área, incluindo a atual cidade de Osaka, estavam no fundo do mar nesse tempo.</p>
+            <p>Em termos da história japonesa, o período em que Osaka foi a capital (período Miyako) foi mais longo que
+              o de Tóquio (período Edo).
+              De 794, quando a capital foi transferida para Heian-kyo, até 1868, quando o imperador se mudou para o
+              Palácio Imperial, Osaka e seus arredores foi a capital por aproximadamente 1.000 anos. (Sendo um nativo de
+              Kansai, sou um fã de Kansai!).</p>
+            <p>Como você provavelmente sabe, Osaka ficou conhecida como a “cozinha da nação” no início do período Edo,
+              após o reinado de Toyotomi Hideyoshi. Sakai, que era uma cidade industrial, tornou-se a Zona Industrial
+              Sakai-Senboku Waterfront, e os remanescentes da cidade mercantil ainda são vibrantes nos distritos
+              comerciais de Umeda e Honmachi, onde os comerciantes de Osaka de 2025 ainda prosperam!
+              Osaka, onde muitos Namban vieram para o Japão para comercializar e espalhar o cristianismo, agora
+              completou o Aeroporto Internacional de Kansai e continua a se desenvolver como uma porta de entrada para o
+              mundo, mas ainda mantém a atmosfera daqueles dias.</p>
+            <p>Alguns dos primeiros sinais de habitação na área aonde hoje se encontra Osaka foram encontrados no século
+              XIX que incluiam esqueletos humanos datados dos séculos V e VI a.C.; Acredita-se que o que é hoje a área
+              ocupada pela cidade consistiu em uma terra peninsular. Durante o período Yayoi, que se estendeu de 300
+              a.C. até 250 d.C., a habitação permanente nas planícies cresceu como o cultivo de arroz e cannabis. Por
+              volta de 500 d.C., durante o período Kofun, Osaka desenvolveu-se um importante porto que ligava a região à
+              parte ocidental do Japão.</p>
+            <p>Em 645 d.C., o Imperador Kōtoku construiu seu palácio, conhecido como Naniwa Nagara-Toyosaki, em Osaka,
+              tornando esta área da capital do império. O lugar que se tornou a cidade moderna foi por este tempo
+              chamado Naniwa. Este nome, e formas derivadas, estão ainda em uso para os distritos no centro de Osaka,
+              como Naniwa (浪 速) e Namba (难 波). Embora a capital foi transferida para Asuka (conhecida como Nara hoje) em
+              655 d.C., Osaka permaneceu um conexão vital, por terra e mar, entre a Yamato (hoje Prefeitura de Nara).
+            </p>
+          </div>
+          <div class="box" style="color: black;">
+            <div class="image fit">
+              <img alt="" src="images/pic04.jpg" />
+            </div>
+            <div class="content">
+              <header class="align-center">
+                <h2>Osaka moderna</h2>
+                <p>Futuro chega em Osaka</p>
+              </header>
+              <hr />
+              <p>
+                Osaka foi o centro industrial mais claramente definido no desenvolvimento do capitalismo no Japão, a
+                rápida industrialização atraiu muitos imigrantes coreanos. O sistema político era pluralista, com uma
+                forte ênfase na promoção da industrialização e modernização. A alfabetização e o sistema educacional
+                expandiram-se rapidamente, produzindo uma classe média com um gosto pela literatura e disponibilidade
+                para apoiar as artes.</p>
+              <p>Osaka, o segundo maior mercado exterior, depois de Tóquio, está experimentando um forte crescimento no
+                número de visitantes estrangeiros. Espera-se que o número de visitantes estrangeiros aumente no futuro
+                devido ao aumento de voos internacionais, novas rotas aéreas e à recente desvalorização do iene japonês.
+                Espera-se que o comportamento de consumo dos visitantes estrangeiros no Japão tenha um impacto positivo
+                na economia japonesa, especialmente em Osaka. Em 2025, a Expo de Osaka está programada para ser
+                realizada em Yumeshima, uma ilha artificial na Baía de Osaka, e 155 hectares dos 390 hectares (cerca de
+                100 vezes o tamanho do Parque Koshien) estão planejados como o local da exposição.</p>
+              <p>Tal como os seus homólogos europeus e americanos, Osaka possui favelas, desemprego e pobreza. No Japão,
+                foi aqui que um governo municipal introduziu pela primeira vez um sistema abrangente de assistência aos
+                pobres, copiados em parte a partir de modelos britânicos. Formuladores de políticas em Osaka salientaram
+                a importância da formação da família e da assistência mútua como a melhor maneira de combater a pobreza.
+                Isso minimizou o custo dos programas de bem-estar.</p>
+              <p>O monotrilho de Osaka opera duas linhas: a linha principal (21,2 km) do aeroporto de Osaka à cidade de
+                Kadoma via Senri-Chuo, e a linha Saito (6,8 km) de Banpaku-Kinen-Koen a Saito-Nishi, que se ramifica
+                para o norte.</p>
+              <p>O produto interno bruto da cidade de Osaka no ano fiscal de 2004 foi de 21,3 trilhões de ienes, um
+                aumento de 1,2% em relação ao ano anterior. O número representa cerca de 55% da produção total na
+                província de Osaka e 26,5% na região de Kinki. Em 2004, comércio, serviços e manufatura foram as três
+                principais indústrias, representando 30%, 26% e 11% do total, respectivamente. A renda per capita na
+                cidade era de cerca de 3,3 milhões de ienes, 10% superior à da prefeitura de Osaka.A MasterCard
+                classificou Osaka como o 19º lugar entre as principais cidades do mundo e desempenha um papel importante
+                na economia global.
+
+                O PIB na área maior de Osaka (Osaka e Kobe) é de 341 bilhões de dólares. Osaka, junto com Paris e
+                Londres, tem uma das hinterlândias mais produtivas do mundo.O PIB per capita de Osaka (nominal) foi de
+                59.958 dólares.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <section class="wrapper style3" id="two">
+    <div class="inner">
+      <div id="flexgrid">
+        <div>
+          <header>
+            <h3>Culinaria Japonesa</h3>
+          </header>
+          <p >Conhecida como a “cozinha da nação”, Osaka guarda alguns dos melhores
+          restaurantes do Japão.&nbsp;&nbsp; &nbsp; &nbsp;</p>
+          <ul class="actions">
+            <li><a class="button alt" href="gastronomia.html">Saiba mais</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <header>
+            <h3>Hospedagem</h3>
+          </header>
+          <p>Encontre opções de hospedagem para todos os gostos e orçamentos em Osaka.
+          &nbsp;&nbsp;&nbsp;</p>
+          <ul class="actions">
+            <li><a class="button alt" href="hospedagem.html">Saiba mais</a></li>
+          </ul>
+        </div>
+        <div>
+          <header>
+            <h3>Música</h3>
+          </header>
+          <p>Osaka possui uma vibrante cena musical, com casas de show famosas e uma rica história no rock, jazz e
+            música tradicional japonesa.</p>
+          <ul class="actions">
+            <li><a class="button alt" href="musica.html">Saiba mais</a></li>
+          </ul>
+        </div>
+        <div>
+          <header>
+            <h3>Pontos Turisticos</h3>
+          </header>
+          <p>O Templo Namba Yasaka, um dos principais pontos turísticos de Osaka, é um belo templo budista localizado no
+            bairro de Namba.</p>
+          <ul class="actions">
+            <li><a class="button alt" href="turismo.html">Saiba mais</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="wrapper style2" id="three">
+    <div class="inner">
+      <div class="grid-style">
+        <div>
+          <div class="box" style="color: black;; color: black">
+            <div class="image fit">
+              <img alt="" class="same-size-image" src="images/pic02.jpg" />
+            </div>
+            <div class="content">
+              <header class="align-center">
+                <h2>Castelo de Osaka</h2>
+                <p>Sugestao de visita</p>
+              </header>
+              <hr />
+              <p> O Castelo de Osaka é um dos castelos mais famosos do Japão e um dos pontos turísticos de Osaka mais
+                visitados, por isso, começamos nossa viagem por ele e recomendamos que você faça o mesmo!
+                Construído no século XVI por Toyotomi Hideyoshi (importante líder da época da dinastia Edo), ele abriga
+                um museu que conta a história local. Mas a parte que mais gostamos foi o mirante, no último andar, onde
+                é possível curtir uma vista panorâmica para a cidade.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="box" style="color: black;; color: black">
+            <div class="image fit">
+              <img alt="" class="same-size-image" src="images/pic03.jpg" />
+            </div>
+            <div class="content">
+              <header class="align-center">
+                <h2>Templo Shiteno-ji</h2>
+                <p>Sugestao visita</p>
+              </header>
+              <hr />
+              <p> Originalmente construído no século VI pelo príncipe Shotoku para introduzir o budismo no Japão, o
+                Templo Shitenoji que sofreu vários incêndios, ao longo dos anos, mas mantém o design original, com um
+                pagoda de 5 andares, é um dos templos budistas mais antigos do país e é um ótimo lugar para conhecer
+                mais de uma das principais religiões japonesas em sua viagem para Osaka.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="wrapper style3" id="four">
+    <div class="inner">
+      <header class="align-center">
+        <h2>A Lenda do Oni de Shutendoji</h2>
+        <p>Shutendoji é uma lenda japonesa sobre um poderoso oni (demônio) que aterrorizava a região de Osaka durante o
+          período Heian (794-1185). A lenda conta a história de um samurai corajoso chamado Minamoto no Yorimitsu, que
+          se aventurou a enfrentar o temível Shutendoji.</p>
+        <p>O demônio Shutendoji era conhecido por sequestrar donzelas, saquear aldeias e causar o caos por toda parte.
+          Minamoto no Yorimitsu, determinado a derrotar o oni, montou uma equipe de quatro samurais destemidos
+          conhecidos como os "Quatro de Minamoto". Juntos, eles planejaram um ataque ao covil do demônio.</p>
+        <p>Usando sua inteligência e coragem, Minamoto no Yorimitsu e seus companheiros conseguiram derrotar Shutendoji
+          e seu bando de demônios em uma batalha feroz. O oni foi capturado e, finalmente, morto.
+        </p>
+      </header>
+    </div>
+  </section>
+  <footer class="wrapper" id="footer">
+    <div class="inner">
+      <section>
+        <div class="box" style="color: black;">
+          <div class="content">
+            <h2 class="align-center">Proverbio Japones</h2>
+            <h2 class="align-center">人のふり見てわがふり直せ</h2>
+            <hr />
+            <p class="align-center">Observe o comportamento de uma pessoa e corrija seu próprio comportamento.</p>
+          </div>
+        </div>
+      </section>
+      <section class="contact-info">
+        <hr />
+        <h3 class="align-center">Informações de Contato</h3>
+        <ul class="actions vertical">
+          <li><a class="button alt icon fa-envelope-o" href="mailto:contato@osakateam.com"> contato@osakateam.com</a>
+            <a class="button alt icon fa-phone" href="tel:+81-123-456-789"> +81 123 456 789</a>
+          </li>
+
+        </ul>
+      </section>
+    </div>
+    <div class="copyright">
+      © 2025 Osaka Team. Todos os direitos reservados.
+    </div>
+
+    <div class="button-container">
+
+    </div>
+    <!-- Botão "Voltar ao Topo" -->
+    <a href="#header" id="voltarTopo" class="button alt" title="Voltar ao Topo">ᐱ</a>
+    <script>
+      const voltarTopo = document.getElementById('voltarTopo');
+
+      // Mostrar/ocultar botão ao rolar
+      window.addEventListener('scroll', function () {
+        if (window.scrollY > 300) {
+          voltarTopo.classList.add('visible');
+        } else {
+          voltarTopo.classList.remove('visible');
+        }
+      });
+
+      // Rolagem suave ao clicar no botão
+      voltarTopo.addEventListener('click', function (e) {
+        e.preventDefault(); // Impede o pulo instantâneo
+        document.querySelector('#header').scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    </script>
+
+    </style>
+
+  </footer>
+</body>
+
+</html>
+<!-- Botão "Voltar ao Topo" -->
